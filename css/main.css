@@ -237,11 +237,12 @@ nav a {
 
 .logo-cont {
     float: left;
+    padding-right: 40px;
 }
 
 .def-cont {
     float: left;
-    padding-left: 40px;
+    
 }
 
 /* CUSTOMIZE THE CAROUSEL
