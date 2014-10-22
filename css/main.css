@@ -74,9 +74,9 @@ body {
     ALL: Orange Theme
    =================== */
 
-.header-container {
+/*.header-container {
     border-bottom: 20px solid #348BD7;
-}
+}*/
 
 .footer-container,
 .main aside {
@@ -205,6 +205,44 @@ nav a {
   width: auto;
 }
 
+
+.navbar {
+    background-color: #348BD7;
+    margin-bottom: 0px;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #348BD7;
+}
+
+.navbar .active {
+    background-color: white;
+}
+
+.navbar .active a {
+    color: #348BD7;
+}
+
+#nav-wrapper.affix {
+    top: 0;
+    width: 100%
+}
+
+.logo-cont {
+    float: left;
+}
+
+.def-cont {
+    float: left;
+    padding-left: 40px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
