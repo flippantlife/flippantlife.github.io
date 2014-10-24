@@ -10,6 +10,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
@@ -23,54 +26,80 @@
 
         <div class="header-container">
             <header class="wrapper clearfix" style="display:block;">
-                <h1 class="title">flippant</h1><h2 class="dict-def-title">adj. \'fli-p&#477nt\</h2>
-                <p class="dict-def">: not showing a serious or respectful attitude</p>
-                <nav>
-                    <ul>
+                <div class="logo-cont">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/flippant.png" alt="flippant">
+                    </a>
+                </div>
+
+                <div class="def-cont">
+                    <h2 class="dict-def-title">adj. \'fli-p&#477nt\</h2>
+                    <p class="dict-def">: not showing a serious or respectful attitude</p>
+                </div>
+            </header>
+
+            
+        </div>
+
+    <div id="nav-wrapper">
+        <div id="mynav" class="navbar navbar-collapse" >
+            <div class="navbar-inner">
+                <div class="wrapper">
+                    <ul class="nav navbar-nav">
                         <li><a href="#">Products</a></li>
                         <li><a href="#">Media</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-                </nav>
-            </header>
+                </div>
+            </div>
         </div>
+    </div>
 
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
       </ol>
+      
       <div class="carousel-inner">
-        <div class="item active left">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+        <div class="item active">
+          <img src="img/cool.jpg" alt="Cool">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Be the coolest guy on the bus!</h1>
+              <p></p>
             </div>
           </div>
         </div>
-        <div class="item next left">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+        <div class="item next">
+          <img src="http://upload.wikimedia.org/wikipedia/en/7/79/Male_Smoking_Outside_On_Sidewalk.JPG" alt="Smoking">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Smoking is cool again</h1>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="http://i.huffpost.com/gen/1885151/thumbs/o-HOMELESS-facebook.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>So it doesn't even do anything?!</h1>
+              <p></p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img src="img/iron.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Made with love and shit</h1>
+              <p></p>
             </div>
           </div>
         </div>
