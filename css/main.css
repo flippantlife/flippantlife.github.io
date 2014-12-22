@@ -240,12 +240,17 @@ nav a {
 
 .logo-cont {
     float: left;
-    padding-right: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 .def-cont {
     float: left;
-    
+    padding-left: 20px;
+}
+
+#instafeed img {
+    width: 20%;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -293,8 +298,39 @@ nav a {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 200px) {
+    .carousel {
+      height: 200px;
+      margin-bottom: 10px;
 
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel .item {
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .carousel {
+      height: 250px;
+      margin-bottom: 10px;
+    }
+
+    .carousel .item {
+        height: 250px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    #instafeed img {
+        width: 20%;
+    }
 /* ====================
     INTERMEDIATE: Menu
    ==================== */
@@ -326,10 +362,25 @@ nav a {
     .oldie nav a {
         margin: 0 0.7%;
     }
+
+/*
+
+*/
 }
 
 @media only screen and (min-width: 768px) {
+    .carousel {
+      height: 400px;
+      margin-bottom: 10px;
+    }
 
+    .carousel .item {
+        height: 400px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+    }
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
@@ -339,6 +390,10 @@ nav a {
         -webkit-box-shadow: 0 5px 10px #aaa;
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
+    }
+
+    #instafeed img {
+        width: 10%;
     }
 
 /* ============
@@ -374,10 +429,21 @@ nav a {
 /* ===============
     Maximal Width
    =============== */
+    .carousel {
+      height: 500px;
+      margin-bottom: 10px;
+    }
 
+    .carousel .item {
+        height: 500px;
+    }
     .wrapper {
         width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
+    }
+
+    #instafeed img {
+        width: 10%;
     }
 }
 
