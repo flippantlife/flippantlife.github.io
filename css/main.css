@@ -241,12 +241,26 @@ nav a {
 .logo-cont {
     float: left;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .def-cont {
     float: left;
     padding-left: 20px;
+}
+
+.def-cont2 {
+    padding-bottom: 20px;
+}
+
+.def-word {
+    font-weight: bold;
+    font-size: 32px;
+    padding-right: 10px;
+}
+
+.def-type {
+    font-weight: italic;
 }
 
 #instafeed img {
