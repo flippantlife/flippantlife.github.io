@@ -314,6 +314,33 @@ nav a {
     }
 }
 
+@media only screen and (min-width: 300px) {
+    .carousel {
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .carousel .item {
+        height: 180px;
+    }
+
+    .dict-def-title {
+        font-size: 16px;
+    }
+
+    .dict-def {
+        font-size: 12px;
+    }
+
+    .logo-cont img {
+        max-width: 250px;
+    }
+}
+
 @media only screen and (min-width: 480px) {
     .carousel {
       height: 250px;
@@ -330,6 +357,18 @@ nav a {
 
     #instafeed img {
         width: 20%;
+    }
+
+    .dict-def-title {
+        font-size: 24px;
+    }
+
+    .dict-def {
+        font-size: 16px;
+    }
+
+    .logo-cont img {
+        max-width: 300px;
     }
 /* ====================
     INTERMEDIATE: Menu
